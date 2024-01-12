@@ -91,7 +91,7 @@ def absolute_value(x):
 """**Problem 7**"""
 
 def indicator(lower,upper,n):
-  if(lower < n and n < upper):
+  if(lower <= n and n <= upper):
     return 1  # Put your code here.
   else:
     return 0  # Put your return value here.
